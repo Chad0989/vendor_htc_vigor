@@ -16,7 +16,9 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
+  vendor/htc/vigor/proprietary/lib/hw/camera.default.so:obj/lib/hw/camera.default.so \
   vendor/htc/vigor/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+  vendor/htc/vigor/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so \
   vendor/htc/vigor/proprietary/lib/libril.so:obj/lib/libril.so \
   vendor/htc/vigor/proprietary/lib/libv8.so:obj/lib/libv8.so
 
@@ -48,6 +50,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/vigor/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
   vendor/htc/vigor/proprietary/bin/port-bridge:system/bin/port-bridge \
+  vendor/htc/vigor/proprietary/snd3254:system/bin/snd3254 \
   vendor/htc/vigor/proprietary/lib/libcryp98.so:system/lib/libcryp98.so \
   vendor/htc/vigor/proprietary/lib/libqdp.so:system/lib/libqdp.so \
   vendor/htc/vigor/proprietary/lib/libqmi.so:system/lib/libqmi.so \
@@ -122,6 +125,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/vigor/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/vigor/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+  vendor/htc/vigor/proprietary/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/vigor/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/vigor/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/vigor/proprietary/lib/libdiag.so:system/lib/libdiag.so \
@@ -129,6 +133,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
   vendor/htc/vigor/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
   vendor/htc/vigor/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+  vendor/htc/vigor/proprietary/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/vigor/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/vigor/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/vigor/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
@@ -139,5 +144,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
   vendor/htc/vigor/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/vigor/proprietary/lib/libmpl.so:system/lib/libmpl.so \
-  vendor/htc/vigor/proprietary/lib/libv8.so:system/lib/libv8.so
+  vendor/htc/vigor/proprietary/lib/libv8.so:system/lib/libv8.so \
+  vendor/htc/vigor/proprietary/libmllite.so:system/lib/libmllite.so \
+  vendor/htc/vigor/proprietary/libmlplatform.so:system/lib/libmlplatform.so
 
