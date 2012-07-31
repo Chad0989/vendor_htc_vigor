@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/vigor/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
   vendor/htc/vigor/proprietary/bin/port-bridge:system/bin/port-bridge \
+  vendor/htc/vigor/proprietary/lib/libcryp98.so:system/lib/libcryp98.so \
   vendor/htc/vigor/proprietary/lib/libqdp.so:system/lib/libqdp.so \
   vendor/htc/vigor/proprietary/lib/libqmi.so:system/lib/libqmi.so \
   vendor/htc/vigor/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
