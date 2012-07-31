@@ -17,7 +17,6 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-  vendor/htc/vigor/proprietary/lib/libril.so:obj/lib/libril.so \
   vendor/htc/vigor/proprietary/lib/libv8.so:obj/lib/libv8.so
 
   
@@ -33,16 +32,13 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/vigor/proprietary/bin/load-modem.sh:system/bin/load-modem.sh \
   vendor/htc/vigor/proprietary/bin/logcat2:system/bin/logcat2 \
-  vendor/htc/vigor/proprietary/bin/ip6tables:system/bin/ip6tables \
   vendor/htc/vigor/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/vigor/proprietary/bin/thermald:system/bin/thermald \
-  vendor/htc/vigor/proprietary/bin/vold:system/bin/vold \
   vendor/htc/vigor/proprietary/bin/ramdump-9K.sh:system/bin/ramdump-9K.sh \
   vendor/htc/vigor/proprietary/bin/ramdump2sd-9K.sh:system/bin/ramdump2sd-9K.sh \
   vendor/htc/vigor/proprietary/xbin/wireless_modem:system/xbin/wireless_modem \
   vendor/htc/vigor/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/htc/vigor/proprietary/bin/netsharing:system/bin/netsharing \
-  vendor/htc/vigor/proprietary/bin/rild:system/bin/rild \
   vendor/htc/vigor/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/vigor/proprietary/bin/ks:system/bin/ks \
   vendor/htc/vigor/proprietary/bin/qcks:system/bin/qcks \
@@ -54,7 +50,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libqmi.so:system/lib/libqmi.so \
   vendor/htc/vigor/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
   vendor/htc/vigor/proprietary/lib/libqueue.so:system/lib/libqueue.so \
-  vendor/htc/vigor/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/vigor/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
   vendor/htc/vigor/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/vigor/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
@@ -114,7 +109,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary//etc/firmware/vidc_1080p.fw:system//etc/firmware/vidc_1080p.fw \
   vendor/htc/vigor/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/vigor/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-  vendor/htc/vigor/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
   vendor/htc/vigor/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/vigor/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/htc/vigor/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
@@ -134,20 +128,12 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/vigor/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/vigor/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
-  vendor/htc/vigor/proprietary/lib/libOpenMAXAL.so:system/lib/libOpenMAXAL.so \
   vendor/htc/vigor/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/vigor/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
-  vendor/htc/vigor/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
-  vendor/htc/vigor/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
-  vendor/htc/vigor/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
-  vendor/htc/vigor/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
-  vendor/htc/vigor/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
   vendor/htc/vigor/proprietary/lib/hw/sensors.vigor.so:system/lib/hw/sensors.vigor.so \
   vendor/htc/vigor/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
   vendor/htc/vigor/proprietary/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
   vendor/htc/vigor/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-  vendor/htc/vigor/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/vigor/proprietary/lib/libmpl.so:system/lib/libmpl.so \
-  vendor/htc/vigor/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/vigor/proprietary/lib/libv8.so:system/lib/libv8.so
 
