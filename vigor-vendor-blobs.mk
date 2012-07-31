@@ -17,6 +17,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+  vendor/htc/vigor/proprietary/lib/libril.so:obj/lib/libril.so \
   vendor/htc/vigor/proprietary/lib/libv8.so:obj/lib/libv8.so
 
   
@@ -39,6 +40,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/xbin/wireless_modem:system/xbin/wireless_modem \
   vendor/htc/vigor/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/htc/vigor/proprietary/bin/netsharing:system/bin/netsharing \
+  vendor/htc/vigor/proprietary/bin/rild:system/bin/rild \
   vendor/htc/vigor/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/vigor/proprietary/bin/ks:system/bin/ks \
   vendor/htc/vigor/proprietary/bin/qcks:system/bin/qcks \
@@ -50,6 +52,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libqmi.so:system/lib/libqmi.so \
   vendor/htc/vigor/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
   vendor/htc/vigor/proprietary/lib/libqueue.so:system/lib/libqueue.so \
+  vendor/htc/vigor/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/vigor/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
   vendor/htc/vigor/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/vigor/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
