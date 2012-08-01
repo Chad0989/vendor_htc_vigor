@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/vigor/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
   vendor/htc/vigor/proprietary/bin/port-bridge:system/bin/port-bridge \
-  vendor/htc/vigor/proprietary/snd3254:system/bin/snd3254 \
+  vendor/htc/vigor/proprietary/bin/snd3254:system/bin/snd3254 \
   vendor/htc/vigor/proprietary/lib/libcryp98.so:system/lib/libcryp98.so \
   vendor/htc/vigor/proprietary/lib/libqdp.so:system/lib/libqdp.so \
   vendor/htc/vigor/proprietary/lib/libqmi.so:system/lib/libqmi.so \
@@ -111,9 +111,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/etc/soundimage/srsfx_trumedia_music_wide.cfg:system/etc/soundimage/srsfx_trumedia_music_wide.cfg \
   vendor/htc/vigor/proprietary/etc/soundimage/srsfx_trumedia_music.cfg:system/etc/soundimage/srsfx_trumedia_music.cfg \
   vendor/htc/vigor/proprietary/etc/soundimage/srsfx_trumedia_voice.cfg:system/etc/soundimage/srsfx_trumedia_voice.cfg \
-  vendor/htc/vigor/proprietary//etc/firmware/leia_pfp_470.fw:system//etc/firmware/leia_pfp_470.fw \
-  vendor/htc/vigor/proprietary//etc/firmware/leia_pm4_470.fw:system//etc/firmware/leia_pm4_470.fw \
-  vendor/htc/vigor/proprietary//etc/firmware/vidc_1080p.fw:system//etc/firmware/vidc_1080p.fw \
+  vendor/htc/vigor/proprietary/etc/firmware/leia_pfp_470.fw:system//etc/firmware/leia_pfp_470.fw \
+  vendor/htc/vigor/proprietary/etc/firmware/leia_pm4_470.fw:system//etc/firmware/leia_pm4_470.fw \
+  vendor/htc/vigor/proprietary/etc/firmware/vidc_1080p.fw:system//etc/firmware/vidc_1080p.fw \
   vendor/htc/vigor/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/vigor/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/htc/vigor/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -133,7 +133,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
   vendor/htc/vigor/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
   vendor/htc/vigor/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-  vendor/htc/vigor/proprietary/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+  vendor/htc/vigor/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/vigor/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/vigor/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/vigor/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
@@ -145,6 +145,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/vigor/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/vigor/proprietary/lib/libv8.so:system/lib/libv8.so \
-  vendor/htc/vigor/proprietary/libmllite.so:system/lib/libmllite.so \
-  vendor/htc/vigor/proprietary/libmlplatform.so:system/lib/libmlplatform.so
+  vendor/htc/vigor/proprietary/lib/libmllite.so:system/lib/libmllite.so \
+  vendor/htc/vigor/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so
 
