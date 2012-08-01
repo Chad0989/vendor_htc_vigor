@@ -18,7 +18,7 @@
 PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/hw/camera.default.so:obj/lib/hw/camera.default.so \
   vendor/htc/vigor/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-  vendor/htc/vigor/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so \
+  vendor/htc/vigor/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
   vendor/htc/vigor/proprietary/lib/libril.so:obj/lib/libril.so \
   vendor/htc/vigor/proprietary/lib/libv8.so:obj/lib/libv8.so
 
@@ -125,7 +125,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/vigor/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/vigor/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-  vendor/htc/vigor/proprietary/libacdbmapper.so:system/lib/libacdbmapper.so \
+  vendor/htc/vigor/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/vigor/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/vigor/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/vigor/proprietary/lib/libdiag.so:system/lib/libdiag.so \
