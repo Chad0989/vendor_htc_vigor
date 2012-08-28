@@ -100,22 +100,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
   vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_preview.so:system/lib/libchromatix_s5k3h2yx_preview.so \
   vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
-  vendor/htc/vigor/proprietary/etc/AdieHWCodec.csv:system/etc/AdieHWCodec.csv \
-  vendor/htc/vigor/proprietary/etc/AdieHWCodec_BEATS_HW.csv:system/etc/AdieHWCodec_BEATS_HW.csv \
-  vendor/htc/vigor/proprietary/etc/AIC3254_REG.csv:system/etc/AIC3254_REG.csv \
-  vendor/htc/vigor/proprietary/etc/AIC3254_REG_DualMic.csv:system/etc/AIC3254_REG_DualMic.csv \
-  vendor/htc/vigor/proprietary/etc/AudioBTID.csv:system/etc/AudioBTID.csv \
-  vendor/htc/vigor/proprietary/etc/CodecDSPID.txt:system/etc/CodecDSPID.txt \
-  vendor/htc/vigor/proprietary/etc/TPA2051_CFG.csv:system/etc/TPA2051_CFG.csv \
-  vendor/htc/vigor/proprietary/etc/soundimage/Sound_Original.txt:system/etc/soundimage/Sound_Original.txt \
-  vendor/htc/vigor/proprietary/etc/soundimage/srs_bypass.cfg:system/etc/soundimage/srs_bypass.cfg \
-  vendor/htc/vigor/proprietary/etc/soundimage/srs_geq10.cfg:system/etc/soundimage/srs_geq10.cfg \
-  vendor/htc/vigor/proprietary/etc/soundimage/srs_global.cfg:system/etc/soundimage/srs_global.cfg \
-  vendor/htc/vigor/proprietary/etc/soundimage/srsfx_trumedia_51.cfg:system/etc/soundimage/srsfx_trumedia_51.cfg \
-  vendor/htc/vigor/proprietary/etc/soundimage/srsfx_trumedia_movie.cfg:system/etc/soundimage/srsfx_trumedia_movie.cfg \
-  vendor/htc/vigor/proprietary/etc/soundimage/srsfx_trumedia_music_wide.cfg:system/etc/soundimage/srsfx_trumedia_music_wide.cfg \
-  vendor/htc/vigor/proprietary/etc/soundimage/srsfx_trumedia_music.cfg:system/etc/soundimage/srsfx_trumedia_music.cfg \
-  vendor/htc/vigor/proprietary/etc/soundimage/srsfx_trumedia_voice.cfg:system/etc/soundimage/srsfx_trumedia_voice.cfg \
   vendor/htc/vigor/proprietary/etc/firmware/vidc_1080p.fw:system//etc/firmware/vidc_1080p.fw \
   vendor/htc/vigor/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/vigor/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
