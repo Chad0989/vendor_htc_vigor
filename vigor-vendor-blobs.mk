@@ -128,15 +128,8 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for adreno
 PRODUCT_COPY_FILES += \
-    vendor/htc/vigor/proprietary/etc/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
-    vendor/htc/vigor/proprietary/etc/firmware/a225_pm4.fw:/system/etc/firmware/a225_pm4.fw \
-    vendor/htc/vigor/proprietary/etc/firmware/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
-    vendor/htc/vigor/proprietary/etc/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
-    vendor/htc/vigor/proprietary/etc/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
     vendor/htc/vigor/proprietary/etc/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
     vendor/htc/vigor/proprietary/etc/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
-    vendor/htc/vigor/proprietary/etc/firmware/yamato_pfp.fw:/system/etc/firmware/yamato_pfp.fw \
-    vendor/htc/vigor/proprietary/etc/firmware/yamato_pm4.fw:/system/etc/firmware/yamato_pm4.fw \
     vendor/htc/vigor/proprietary/lib/egl/egl.cfg:/system/lib/egl/egl.cfg \
     vendor/htc/vigor/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/vigor/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
@@ -148,5 +141,3 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vigor/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/vigor/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/vigor/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so
-
-
