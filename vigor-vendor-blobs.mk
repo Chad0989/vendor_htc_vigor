@@ -16,12 +16,12 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-  vendor/htc/vigor/proprietary/lib/hw/camera.default.so:obj/lib/hw/camera.default.so \
   vendor/htc/vigor/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
   vendor/htc/vigor/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
   vendor/htc/vigor/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
   vendor/htc/vigor/proprietary/lib/libril.so:obj/lib/libril.so \
-  vendor/htc/vigor/proprietary/lib/libv8.so:obj/lib/libv8.so
+  vendor/htc/vigor/proprietary/lib/libv8.so:obj/lib/libv8.so \
+  vendor/htc/vigor/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so 
 
 
 PRODUCT_COPY_FILES += \
@@ -51,6 +51,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/bin/awb_camera:system/bin/awb_camera \
   vendor/htc/vigor/proprietary/bin/cam_ins_spmo:system/bin/cam_ins_spmo \
   vendor/htc/vigor/proprietary/bin/lsc_camera:system/bin/lsc_camera \
+  vendor/htc/vigor/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
   vendor/htc/vigor/proprietary/lib/libcryp98.so:system/lib/libcryp98.so \
   vendor/htc/vigor/proprietary/lib/libqdp.so:system/lib/libqdp.so \
   vendor/htc/vigor/proprietary/lib/libqmi.so:system/lib/libqmi.so \
@@ -77,48 +78,53 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/etc/thermald.conf:system/etc/thermald.conf \
   vendor/htc/vigor/proprietary/etc/vpimg:system/etc/vpimg \
   vendor/htc/vigor/proprietary/etc/vold.fstab:system/etc/vold.fstab \
-  vendor/htc/vigor/proprietary/lib/libchromatix_imx105_default_video.so:system/lib/libchromatix_imx105_default_video.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_imx105_preview.so:system/lib/libchromatix_imx105_preview.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_imx105_zsl.so:system/lib/libchromatix_imx105_zsl.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_mt9d015_default_video.so:system/lib/libchromatix_mt9d015_default_video.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_mt9d015_default_zsl.so:system/lib/libchromatix_mt9d015_default_zsl.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_mt9d015_preview.so:system/lib/libchromatix_mt9d015_preview.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_ov8830_default_video.so:system/lib/libchromatix_ov8830_default_video.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_ov8830_hfr.so:system/lib/libchromatix_ov8830_hfr.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_ov8830_preview.so:system/lib/libchromatix_ov8830_preview.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_ov8830_zsl.so:system/lib/libchromatix_ov8830_zsl.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h1gx_default_video.so:system/lib/libchromatix_s5k3h1gx_default_video.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h1gx_hfr.so:system/lib/libchromatix_s5k3h1gx_hfr.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h1gx_preview.so:system/lib/libchromatix_s5k3h1gx_preview.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h1gx_zsl.so:system/lib/libchromatix_s5k3h1gx_zsl.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_preview.so:system/lib/libchromatix_s5k3h2yx_preview.so \
-  vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
   vendor/htc/vigor/proprietary/etc/firmware/vidc_1080p.fw:system//etc/firmware/vidc_1080p.fw \
   vendor/htc/vigor/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/vigor/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/vigor/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/vigor/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
-  vendor/htc/vigor/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
-  vendor/htc/vigor/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/vigor/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-  vendor/htc/vigor/proprietary/lib/libgemini.so:system/lib/libgemini.so \
   vendor/htc/vigor/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
-  vendor/htc/vigor/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-  vendor/htc/vigor/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-  vendor/htc/vigor/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-  vendor/htc/vigor/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
+  vendor/htc/vigor/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+  vendor/htc/vigor/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+  vendor/htc/vigor/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+  vendor/htc/vigor/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
   vendor/htc/vigor/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/vigor/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
   vendor/htc/vigor/proprietary/lib/hw/sensors.vigor.so:system/lib/hw/sensors.vigor.so \
-  vendor/htc/vigor/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
   vendor/htc/vigor/proprietary/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
   vendor/htc/vigor/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/vigor/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/vigor/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/vigor/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/vigor/proprietary/lib/libv8.so:system/lib/libv8.so
+
+
+# Camera blobs
+PRODUCT_COPY_FILES += \
+  vendor/htc/vigor/proprietary/lib/libchromatix_mt9d015_default_video.so:system/lib/libchromatix_mt9d015_default_video.so \
+  vendor/htc/vigor/proprietary/lib/libchromatix_mt9d015_default_zsl.so:system/lib/libchromatix_mt9d015_default_zsl.so \
+  vendor/htc/vigor/proprietary/lib/libchromatix_mt9d015_preview.so:system/lib/libchromatix_mt9d015_preview.so \
+  vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
+  vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
+  vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_preview.so:system/lib/libchromatix_s5k3h2yx_preview.so \
+  vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
+  vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_hdr.so:system/lib/libchromatix_s5k3h2yx_hdr.so \
+  vendor/htc/vigor/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
+  vendor/htc/vigor/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+  vendor/htc/vigor/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
+  vendor/htc/vigor/proprietary/lib/libDxOAF.so:system/lib/libDxOAF.so \
+  vendor/htc/vigor/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+  vendor/htc/vigor/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+  vendor/htc/vigor/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
+  vendor/htc/vigor/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
+  vendor/htc/vigor/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+  vendor/htc/vigor/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+  vendor/htc/vigor/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
+  vendor/htc/vigor/proprietary/lib/libmmstereo.so:system/lib/libmmstereo.so \
+  vendor/htc/vigor/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
+  vendor/htc/vigor/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
+  vendor/htc/vigor/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
 
 # All the blobs necessary for adreno
 PRODUCT_COPY_FILES += \
@@ -132,3 +138,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vigor/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/vigor/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
     vendor/htc/vigor/proprietary/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so
+
