@@ -101,6 +101,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/vigor/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/vigor/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+  vendor/htc/vigor/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
   vendor/htc/vigor/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/vigor/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/vigor/proprietary/lib/libgemini.so:system/lib/libgemini.so \
