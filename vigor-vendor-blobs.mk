@@ -16,7 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-  vendor/htc/vigor/proprietary/lib/hw/camera.default.so:obj/lib/hw/camera.default.so \
+  vendor/htc/vigor/proprietary/lib/hw/camera.default.so:obj/lib/hw/vendor-camera.default.so \
   vendor/htc/vigor/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
   vendor/htc/vigor/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
   vendor/htc/vigor/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
@@ -113,7 +113,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/vigor/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
   vendor/htc/vigor/proprietary/lib/hw/sensors.vigor.so:system/lib/hw/sensors.vigor.so \
-  vendor/htc/vigor/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
+  vendor/htc/vigor/proprietary/lib/hw/camera.default.so:system/lib/hw/vendor-camera.default.so \
   vendor/htc/vigor/proprietary/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
   vendor/htc/vigor/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/vigor/proprietary/lib/libmpl.so:system/lib/libmpl.so \
