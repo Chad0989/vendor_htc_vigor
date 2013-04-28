@@ -95,7 +95,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
   vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_preview.so:system/lib/libchromatix_s5k3h2yx_preview.so \
   vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
-  vendor/htc/vigor/proprietary/etc/firmware/vidc_1080p.fw:system//etc/firmware/vidc_1080p.fw \
   vendor/htc/vigor/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/vigor/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/vigor/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
