@@ -95,13 +95,11 @@ PRODUCT_COPY_FILES += \
   vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
   vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_preview.so:system/lib/libchromatix_s5k3h2yx_preview.so \
   vendor/htc/vigor/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
-  vendor/htc/vigor/proprietary/etc/firmware/vidc_1080p.fw:system//etc/firmware/vidc_1080p.fw \
   vendor/htc/vigor/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/vigor/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/vigor/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/vigor/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/vigor/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
-  vendor/htc/vigor/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
   vendor/htc/vigor/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/vigor/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/vigor/proprietary/lib/libgemini.so:system/lib/libgemini.so \
